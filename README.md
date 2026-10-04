@@ -46,7 +46,6 @@ mission: "Detect. Investigate. Respond. Improve."
 - Flagged and escalated notable security events to the appropriate stakeholders
 - Managed ServiceNow (SNOW) for security incident ticketing, investigation documentation, and risk workflows
 - Supported SLA-driven incident closure and escalation handling in line with security procedures
-- Conducted continuous security event monitoring and tracked operational security posture
 
 #### Vulnerability & Risk Management
 - Performed enterprise-wide vulnerability assessments using Nessus
@@ -55,12 +54,6 @@ mission: "Detect. Investigate. Respond. Improve."
 - Conducted IT/OT risk assessments using SOC 2 reports and aligned findings with corporate policies
 - Documented risk assessment results and remediation findings using Excel and Word for review and audit purposes
 - Contributed to risk quantification and remediation tracking across assets and systems
-
-#### Cloud & Infrastructure Security
-- Reviewed Microsoft Azure security configurations and cloud security controls
-- Assessed network and infrastructure security posture to identify exposure areas
-- Supported IT/OT risk assessments and aligned findings with security frameworks and governance standards
-- Helped maintain visibility into infrastructure-level risks, security controls, and remediation needs
 
 #### Identity & Access Management
 - Administered CyberArk Endpoint Privilege Manager (EPM) and Privileged Access Management (PAM)
