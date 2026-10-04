@@ -56,12 +56,6 @@ mission: "Detect. Investigate. Respond. Improve."
 - Documented risk assessment results and remediation findings using Excel and Word for review and audit purposes
 - Contributed to risk quantification and remediation tracking across assets and systems
 
-#### Cloud & Infrastructure Security
-- Reviewed Microsoft Azure security configurations and cloud security controls
-- Assessed network and infrastructure security posture to identify exposure areas
-- Supported IT/OT risk assessments and aligned findings with security frameworks and governance standards
-- Helped maintain visibility into infrastructure-level risks, security controls, and remediation needs
-
 #### Identity & Access Management
 - Administered CyberArk Endpoint Privilege Manager (EPM) and Privileged Access Management (PAM)
 - Enforced least-privilege access for privileged accounts and monitored privileged sessions
