@@ -3,7 +3,7 @@
 <img src="https://capsule-render.vercel.app/api?type=waving&color=0:DC2626,100:7F1D1D&height=220&section=header&text=Preetham%20N%20N&fontSize=42&fontColor=ffffff&animation=fadeIn&fontAlign=50" width="100%"/>
 
 <a href="https://www.linkedin.com/in/preetham-n-n-0110972a5/">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1000&color=DC2626&center=true&vCenter=true&width=650&lines=Cybersecurity+Professional;SOC+%26+Cloud+Security;Detection+Engineering;Threat+Hunting+%26+Incident+Response" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1000&color=DC2626&center=true&vCenter=true&width=650&lines=Cybersecurity+Professional;SOC+%26+Cloud+Security;Detection+Engineering;Threat+Hunting;Incident+Response" />
 </a>
 
 <br/>
@@ -55,6 +55,12 @@ mission: "Detect. Investigate. Respond. Improve."
 - Conducted IT/OT risk assessments using SOC 2 reports and aligned findings with corporate policies
 - Documented risk assessment results and remediation findings using Excel and Word for review and audit purposes
 - Contributed to risk quantification and remediation tracking across assets and systems
+
+#### Cloud & Infrastructure Security
+- Reviewed Microsoft Azure security configurations and cloud security controls
+- Assessed network and infrastructure security posture to identify exposure areas
+- Supported IT/OT risk assessments and aligned findings with security frameworks and governance standards
+- Helped maintain visibility into infrastructure-level risks, security controls, and remediation needs
 
 #### Identity & Access Management
 - Administered CyberArk Endpoint Privilege Manager (EPM) and Privileged Access Management (PAM)
@@ -233,11 +239,11 @@ Focused on building security detection logic, triage workflows, and analytical m
 
 <div align="center">
 
-| Certification | Issuer | Focus Area |
-|---------------|--------|-----------|
-| 🛡️ **Security+** | CompTIA | General Security Principles |
-| 🔐 **Cisco CyberOps Associate** | Cisco | Security Operations |
-| 🛡️ **IBM Security Operations Center** | IBM | SOC Operations |
+| Certification | Issuer | Focus Area | Credential |
+|---------------|--------|-----------|-----------|
+| 🛡️ **Security+** | CompTIA | General Security Principles | [![View Badge](https://img.shields.io/badge/View-Credly-00A699?style=flat&logo=credly&logoColor=white)](https://www.credly.com/badges/117a5f0a-6ab7-42fe-9709-0a5a351b4e05) |
+| 🔐 **Cisco CyberOps Associate** | Cisco | Security Operations | [![View Badge](https://img.shields.io/badge/View-Credly-00A699?style=flat&logo=credly&logoColor=white)](https://www.credly.com/badges/2c70c90c-dc99-4bfa-9b98-21fd6095dc09/public_url) |
+| 🛡️ **IBM Security Operations Center** | IBM | SOC Operations | [![View Badge](https://img.shields.io/badge/View-Credly-00A699?style=flat&logo=credly&logoColor=white)](https://www.credly.com/badges/b7ccce30-3240-42e2-b682-b15772d16d95/public_url) |
 
 </div>
 
