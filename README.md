@@ -1,224 +1,392 @@
 # 👋 Hi, I'm Preetham N N
 
+<div align="center">
+
 ### 🛡️ Cybersecurity | SOC | Detection Engineering | Cloud Security
 
-Cybersecurity professional focused on **Security Operations, Detection Engineering, Incident Response, Vulnerability Management, and Cloud Security**.
+**[LinkedIn](https://www.linkedin.com/in/preetham-n-n-0110972a5/) • [Email](mailto:nnpreethamgowda278@gmail.com) • [GitHub](https://github.com/Preethamnn)**
 
-I build hands-on security solutions across **SIEM, SOAR, IDS/IPS, EDR, network security, security automation, and threat detection**.
+</div>
 
 ---
 
-## 🔎 About Me
+## 🎯 Quick Overview
 
-- 🛡️ IT Security experience at **Textron India Pvt. Ltd.**
-- ☁️ Hands-on experience with **Microsoft Azure & Microsoft Sentinel**
-- 🚨 Experience in **security monitoring, incident tracking and vulnerability management**
-- 🔎 Interested in **Detection Engineering, Threat Hunting & Incident Response**
-- 🌐 Hands-on experience with **IDS/IPS, network security and traffic analysis**
-- 🔐 Experience with **IAM, RBAC, PAM and vulnerability management**
-- 🧠 Focused on building practical security solutions aligned with **MITRE ATT&CK**
+Cybersecurity professional focused on **Security Operations, Detection Engineering, Incident Response, Vulnerability Management, and Cloud Security**. I build hands-on security solutions across **SIEM, SOAR, IDS/IPS, EDR, network security, security automation, and threat detection**.
+
+<details open>
+<summary><strong>📊 Key Highlights</strong></summary>
+
+| Area | Experience |
+|------|-----------|
+| 🏢 **Current Role** | IT Security Intern @ Textron India Pvt. Ltd. |
+| 🎓 **Education** | M.Tech - Computer Network Engineering (CGPA: 9.2) |
+| 🛡️ **Focus Areas** | Detection Engineering, Threat Hunting, Incident Response |
+| ☁️ **Cloud** | Microsoft Azure, Microsoft Sentinel |
+| 🔧 **Key Tools** | SIEM, SOAR, KQL, Suricata, Zeek, Nessus |
+
+</details>
 
 ---
 
 ## 🧰 Security Toolbox
 
-**SOC & Detection**
+<details>
+<summary><strong>🔍 Click to expand Toolbox</strong></summary>
 
-`Microsoft Sentinel` `ELK` `SIEM` `SOAR` `KQL`
-`Threat Hunting` `Incident Response` `MITRE ATT&CK`
+### 🚨 SOC & Detection
+```
+Microsoft Sentinel  │  ELK  │  SIEM  │  SOAR  │  KQL
+Threat Hunting  │  Incident Response  │  MITRE ATT&CK
+```
 
-**Cloud Security**
+### ☁️ Cloud Security
+```
+Microsoft Azure  │  Microsoft Defender  │  Azure Logic Apps
+Microsoft Entra ID  │  Network Security Groups (NSG)
+```
 
-`Microsoft Azure` `Microsoft Defender`
-`Azure Logic Apps` `Microsoft Entra ID` `NSG`
+### 🌐 Network Security
+```
+Suricata  │  Zeek  │  Wireshark  │  Nmap
+IDS/IPS  │  TCP/IP  │  DNS  │  Firewalls
+```
 
-**Network Security**
+### 💻 Security Engineering
+```
+Python  │  SQL  │  PowerShell  │  Bash
+Docker  │  Git  │  GitHub
+```
 
-`Suricata` `Zeek` `Wireshark` `Nmap`
-`IDS/IPS` `TCP/IP` `DNS` `Firewalls`
+### ⚠️ Vulnerability & Risk
+```
+Nessus  │  CVSS  │  CVE  │  SOC 2  │  NIST CSF
+```
 
-**Security Engineering**
+### 🔐 Identity & Access
+```
+Active Directory  │  Microsoft Entra ID
+CyberArk EPM/PAM  │  RBAC
+```
 
-`Python` `SQL` `PowerShell` `Bash`
-`Docker` `Git` `GitHub`
-
-**Vulnerability & Risk**
-
-`Nessus` `CVSS` `CVE` `SOC 2` `NIST CSF`
-
-**Identity & Access**
-
-`Active Directory` `Microsoft Entra ID`
-`CyberArk EPM/PAM` `RBAC`
+</details>
 
 ---
 
-# 🚀 Featured Security Projects
+## 🚀 Featured Security Projects
 
-## 🛡️ Cloud SOC on Microsoft Azure
+### 🛡️ Cloud SOC on Microsoft Azure
 
-**SIEM Detection & SOAR Automated Incident Response**
+<details>
+<summary><strong>SIEM Detection & SOAR Automated Incident Response</strong> 🔽</summary>
 
-Built a cloud-based SOC environment using Microsoft Sentinel, KQL,
-Azure Logic Apps and automated network containment.
+**Overview**
+
+Built a cloud-based SOC environment using Microsoft Sentinel, KQL, Azure Logic Apps and automated network containment.
 
 **Security Pipeline**
 
 ```text
-Windows Workload
-       ↓
-Windows Security Events
-       ↓
-Azure Monitor Agent
-       ↓
-Data Collection Rule
-       ↓
-Log Analytics
-       ↓
-Microsoft Sentinel
-       ↓
-KQL Detection
-       ↓
-Sentinel Incident
-       ↓
-Azure Logic Apps
-       ↓
-Attacker IP Extraction
-       ↓
-NSG Automated Containment
+┌──────────────────┐
+│ Windows Workload │
+└────────┬─────────┘
+         ↓
+┌──────────────────────────┐
+│ Windows Security Events  │
+└────────┬─────────────────┘
+         ↓
+┌──────────────────────┐
+│ Azure Monitor Agent  │
+└────────┬─────────────┘
+         ↓
+┌──────────────────────┐
+│ Data Collection Rule │
+└────────┬─────────────┘
+         ↓
+┌──────────────────────┐
+│  Log Analytics       │
+└────────┬─────────────┘
+         ↓
+┌──────────────────────┐
+│Microsoft Sentinel    │
+└────────┬─────────────┘
+         ↓
+┌──────────────────────┐
+│ KQL Detection Rules  │
+└────────┬─────────────┘
+         ↓
+┌──────────────────────┐
+│ Sentinel Incident    │
+└────────┬─────────────┘
+         ↓
+┌──────────────────────┐
+│ Azure Logic Apps     │
+└────────┬─────────────┘
+         ↓
+┌──────────────────────┐
+│ Attacker IP Extract  │
+└────────┬─────────────┘
+         ↓
+┌──────────────────────┐
+│NSG Automated Contain │
+└──────────────────────┘
 ```
 
-**Focus:** SIEM • Detection Engineering • SOAR • Incident Response • Cloud Security
+**Key Focus Areas**
 
-👉 [View Repository](https://github.com/Preethamnn/cloud-soc-azure-sentinel)
+- 🎯 SIEM Architecture & Detection Engineering
+- 🤖 SOAR Automation & Orchestration
+- ☁️ Cloud Security & Azure Best Practices
+- 🚨 Incident Response Workflows
+- 🔐 Network Containment Strategies
+
+👉 **[Explore Repository →](https://github.com/Preethamnn/cloud-soc-azure-sentinel)**
+
+</details>
 
 ---
 
-## 🤖 AI-Driven IoT Intrusion Detection System
+### 🤖 AI-Driven IoT Intrusion Detection System
 
-End-to-end network IDS/IPS pipeline combining packet capture,
-network protocol analysis, signature-based detection and machine learning.
+<details>
+<summary><strong>End-to-End Network IDS/IPS Pipeline</strong> 🔽</summary>
 
-**Pipeline**
+**Overview**
+
+Combining packet capture, network protocol analysis, signature-based detection and machine learning for advanced threat detection.
+
+**Detection Pipeline**
 
 ```text
-Network Traffic
-      ↓
-Scapy
-      ↓
-Zeek + Suricata
-      ↓
-ML Detection Engine
-      ↓
-Isolation Forest
-XGBoost / CatBoost
-      ↓
-ELK Stack
-      ↓
-Kibana
+┌────────────────┐
+│ Network Traffic│
+└────────┬───────┘
+         ↓
+    ┌────────┐
+    │ Scapy  │
+    └────┬───┘
+         ↓
+┌──────────────────┐
+│ Zeek + Suricata  │
+└────────┬─────────┘
+         ↓
+┌──────────────────────┐
+│ ML Detection Engine  │
+├──────────────────────┤
+│ • Isolation Forest   │
+│ • XGBoost/CatBoost   │
+└────────┬─────────────┘
+         ↓
+┌──────────────────┐
+│   ELK Stack      │
+└────────┬─────────┘
+         ↓
+    ┌────────┐
+    │ Kibana │
+    └────────┘
 ```
 
-**Focus:** Network Security • IDS/IPS • Machine Learning • Threat Detection
+**Capabilities**
 
-👉 [View Repository](https://github.com/Preethamnn/AI-Driven-iot-intrusion-detection-system)
+- 📊 Real-time packet analysis & feature extraction
+- 🤖 Multi-model ML detection (Isolation Forest, XGBoost, CatBoost)
+- 📈 Centralized logging & visualization
+- 🚨 Automated alerting on anomalies
+- 🔍 Advanced threat hunting dashboard
 
----
+👉 **[Explore Repository →](https://github.com/Preethamnn/AI-Driven-iot-intrusion-detection-system)**
 
-## 🔥 Machine Learning-Based Web Application Firewall
-
-Custom Python HTTP proxy designed to detect and block malicious
-web requests using machine learning.
-
-**Detection Coverage**
-
-- SQL Injection
-- Cross-Site Scripting (XSS)
-- Malicious HTTP payloads
-- Real-time request blocking
-- Security event logging
-
-**Focus:** Application Security • WAF • Machine Learning • OWASP
-
-👉 [View Repository](https://github.com/Preethamnn/ML-based-WAF)
+</details>
 
 ---
 
-# 💼 Experience
+### 🔥 Machine Learning-Based Web Application Firewall
 
-### Textron India Pvt. Ltd.
-**IT Security Intern | Sep 2025 – Jun 2026**
+<details>
+<summary><strong>Custom Python HTTP Proxy with ML Detection</strong> 🔽</summary>
 
-Worked across:
+**Overview**
 
-- SIEM-based security monitoring
-- ServiceNow incident management
-- Vulnerability assessment using Nessus
-- CVSS/CVE analysis
-- IT/OT risk assessment
-- SOC 2 security assessments
-- CyberArk EPM/PAM
-- IAM and RBAC
-- Active Directory & Microsoft Entra ID
+Custom Python HTTP proxy designed to detect and block malicious web requests using machine learning.
 
----
+**Detection Capabilities**
 
-# 🎓 Education
+| Attack Type | Detection | Response |
+|------------|-----------|----------|
+| 🔴 SQL Injection | Advanced pattern matching | Block & Log |
+| 🔴 Cross-Site Scripting (XSS) | ML-based payload analysis | Block & Alert |
+| 🔴 Malicious HTTP Payloads | Signature + behavior analysis | Block & Log |
+| ✅ Legitimate Requests | Whitelist validation | Allow |
 
-### M.Tech — Computer Network Engineering
-**BMS College of Engineering**  
-CGPA: **9.2**
+**Features**
 
-### B.E. — Computer Science & Engineering
-**K S School of Engineering and Management**  
-CGPA: **7.5**
+- 🛡️ Real-time request inspection & filtering
+- 🤖 Machine learning-based threat classification
+- 📝 Comprehensive security event logging
+- ⚡ Low-latency processing
+- 🔧 Easy configuration & rule management
 
----
+👉 **[Explore Repository →](https://github.com/Preethamnn/ML-based-WAF)**
 
-# 📜 Certifications
-
-- 🛡️ CompTIA Security+
-- 🔐 Cisco Certified CyberOps Associate
-- 🛡️ IBM Security Operations Center
+</details>
 
 ---
 
-# 🎯 Current Focus
+## 💼 Professional Experience
 
-```text
-Detection Engineering
-        ↓
-Threat Hunting
-        ↓
-Incident Response
-        ↓
-Cloud Security
-        ↓
-SIEM / SOAR
-        ↓
-Security Automation
+<details open>
+<summary><strong>Textron India Pvt. Ltd. | IT Security Intern</strong></summary>
+
+**Duration:** Sep 2025 – Jun 2026
+
+**Responsibilities & Technical Skills**
+
+```
+Security Operations
+├── SIEM-based security monitoring
+├── ServiceNow incident management
+├── Security event analysis & correlation
+└── Real-time threat monitoring
+
+Vulnerability & Risk Management
+├── Nessus vulnerability assessments
+├── CVSS/CVE prioritization & analysis
+├── Remediation tracking
+└── Risk quantification
+
+Cloud & Infrastructure Security
+├── IT/OT risk assessment
+├── Microsoft Azure security configurations
+└── Network security policies
+
+Compliance & Standards
+├── SOC 2 security assessments
+├── Security control testing
+├── Compliance documentation
+└── Audit support
+
+Identity & Access Management
+├── CyberArk EPM/PAM administration
+├── Active Directory management
+├── Microsoft Entra ID configuration
+├── RBAC policy implementation
 ```
 
-Currently deepening my expertise in:
+</details>
 
-- 🔎 Detection Engineering
-- 🛡️ SOC Operations
-- ☁️ Cloud Security
-- 🚨 Incident Response
-- 🧠 Threat Hunting
-- 📊 SIEM & KQL
-- 🤖 SOAR Automation
-- 🌐 Network Detection
+---
+
+## 🎓 Education
+
+<details>
+<summary><strong>Click to view Education Details</strong></summary>
+
+### 🎯 Master's Degree
+**M.Tech — Computer Network Engineering**
+- 📍 BMS College of Engineering
+- 📊 **CGPA: 9.2/10** ⭐
+
+### 📚 Bachelor's Degree
+**B.E. — Computer Science & Engineering**
+- 📍 K S School of Engineering and Management
+- 📊 **CGPA: 7.5/10**
+
+</details>
+
+---
+
+## 📜 Professional Certifications
+
+<details open>
+<summary><strong>Security Certifications & Credentials</strong></summary>
+
+| Certification | Issuer | Focus Area |
+|---------------|--------|-----------|
+| 🛡️ **Security+** | CompTIA | General Security Principles |
+| 🔐 **Cisco CyberOps Associate** | Cisco | Security Operations |
+| 🛡️ **IBM Security Operations Center** | IBM | SOC Operations |
+
+</details>
+
+---
+
+## 🎯 Current Learning Path
+
+<details open>
+<summary><strong>Focus Areas & Roadmap</strong></summary>
+
+```
+┌─────────────────────────┐
+│ Detection Engineering   │  🔍 Building custom detection rules
+│ (Current Focus)         │     and threat models
+└──────────┬──────────────┘
+           ↓
+┌─────────────────────────┐
+│ Threat Hunting          │  🎯 Proactive threat discovery
+└──────────┬──────────────┘
+           ↓
+┌─────────────────────────┐
+│ Incident Response       │  🚨 Rapid response & containment
+└──────────┬──────────────┘
+           ↓
+┌─────────────────────────┐
+│ Cloud Security          │  ☁️ Azure & multi-cloud hardening
+└──────────┬──────────────┘
+           ↓
+┌─────────────────────────┐
+│ SIEM & SOAR            │  📊 Advanced analytics & automation
+└──────────┬──────────────┘
+           ↓
+┌─────────────────────────┐
+│ Security Automation     │  🤖 Infrastructure as Code for security
+└─────────────────────────┘
+```
+
+**Currently Deepening Expertise In:**
+
+- 🔎 **Detection Engineering** — Building scalable detection rules in KQL
+- 🛡️ **SOC Operations** — Incident triage, escalation, and management
+- ☁️ **Cloud Security** — Azure security architecture & compliance
+- 🚨 **Incident Response** — DFIR, containment, and recovery
+- 🧠 **Threat Hunting** — MITRE ATT&CK-based hunting campaigns
+- 📊 **SIEM & KQL** — Advanced threat detection queries
+- 🤖 **SOAR Automation** — Playbook development & orchestration
+- 🌐 **Network Detection** — Traffic analysis & behavioral analytics
+
+</details>
+
+---
+
+## 📊 GitHub Stats
+
+<div align="center">
+
+![GitHub Stats](https://github-readme-stats.vercel.app/api?username=Preethamnn&show_icons=true&theme=dark&hide_border=true)
+
+</div>
 
 ---
 
 ## 📫 Let's Connect
 
-💼 **LinkedIn:** [Connect with me](https://www.linkedin.com/in/preetham-n-n-0110972a5/)
+<div align="center">
 
-📧 **Email:** nnpreethamgowda278@gmail.com
+| Platform | Link |
+|----------|------|
+| 💼 **LinkedIn** | [Connect with me](https://www.linkedin.com/in/preetham-n-n-0110972a5/) |
+| 📧 **Email** | [nnpreethamgowda278@gmail.com](mailto:nnpreethamgowda278@gmail.com) |
+| 🐙 **GitHub** | [@Preethamnn](https://github.com/Preethamnn) |
 
-🐙 **GitHub:** [@Preethamnn](https://github.com/Preethamnn)
+</div>
 
 ---
 
-### 🛡️ Detect. Investigate. Respond. Improve.
+<div align="center">
+
+### 🛡️ *Detect. Investigate. Respond. Improve.*
+
+![Security Badge](https://img.shields.io/badge/Security-Focused-red?style=flat-square)
+![Cloud Badge](https://img.shields.io/badge/Cloud-Azure-blue?style=flat-square)
+![Detection Badge](https://img.shields.io/badge/Detection-Engineering-green?style=flat-square)
+
+</div>
