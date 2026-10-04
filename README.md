@@ -213,9 +213,9 @@ Currently deepening my expertise in:
 
 ## 📫 Let's Connect
 
-💼 **LinkedIn:** [Connect with me](YOUR_LINKEDIN_URL)
+💼 **LinkedIn:** [Connect with me](https://www.linkedin.com/in/preetham-n-n-0110972a5/)
 
-📧 **Email:** YOUR_EMAIL
+📧 **Email:** nnpreethamgowda278@gmail.com
 
 🐙 **GitHub:** [@Preethamnn](https://github.com/Preethamnn)
 
