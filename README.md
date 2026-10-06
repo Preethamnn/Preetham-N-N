@@ -22,11 +22,11 @@
 
 ```yaml
 name: Preetham N N
-role: Cybersecurity Professional | SOC Analyst | Detection Engineer
+role: Cybersecurity | SOC Analyst | Detection Engineer
 based_in: Bengaluru, India
-education: M.Tech in Computer Network Engineering (CGPA: 9.2/10)
+education: M.Tech in Computer Network Engineering (CGPA: 9.3/10)
 current_role: IT Security Intern @ Textron India Pvt. Ltd.
-focus: [Cybersecurity, SOC Operations, Cloud Security, Detection Engineering, Threat Hunting]
+focus: Cybersecurity, SOC Operations, Cloud Security, Detection Engineering, Threat Hunting
 mission: "Detect. Investigate. Respond. Improve."
 ```
 
